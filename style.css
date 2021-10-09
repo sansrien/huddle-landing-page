@@ -1,0 +1,42 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fefffb;
+    display:flex;
+    flex-direction: column;
+    background-color:#674bb1;
+    background-image: url("images/bg-desktop.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    padding: 40px 70px;
+}
+
+#logo{
+    width: 13em;
+    margin-bottom: 70px;
+}
+main{
+    display: flex;
+}
+.text-content{
+    margin-left: 4%;
+    margin-right: 8%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;   
+}
+button{
+    /*margin-left: 20px;*/
+    padding-left:10%;
+    border-width: 0;
+    background-color: white;
+    border-color: transparent;
+    border-style: none;
+    border-radius: 20%;
+    color: #674bb1;
+    width: 30%;
+    height: 9%;
+    
+}
